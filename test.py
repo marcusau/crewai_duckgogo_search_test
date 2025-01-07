@@ -17,12 +17,6 @@ llm = LLM(
     timeout=60,
 )
 
-# search_tool_run = DuckDuckGoSearchRun()
-# search_tool = Tool(
-#     name="DuckDuckGo Search",
-#     func=search_tool_run.run,
-#     description="Useful for searching the internet for information about any topic."
-# )
 
 # 1. Create a DuckDuckGoSearchAPIWrapper instance
 search_api = DuckDuckGoSearchAPIWrapper()
