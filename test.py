@@ -8,7 +8,7 @@ load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 llm = LLM(
-    model="gpt-4o",
+    model="gpt-4o-mini",
     temperature=0,
     max_tokens=4096,
     top_p=0.9,
